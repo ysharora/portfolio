@@ -1,0 +1,450 @@
+<!-- Study css and bootstrap from  w3 schools https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+
+<!-- The <!DOCTYPE> declaration for HTML5 is:<!DOCTYPE html> -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <!-- for bootstap mobile site -->
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Yash Arora</title>
+  <link rel = "icon" href = "assets/img/nameicon.png"  type = "image/x-icon">
+
+
+
+  <!-- downlaod vendors files -->
+  <!-- icons pack -->
+  <link href="assets/vendors/icofont/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendors/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <link href="assets/vendors/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendors/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- download aos (animation on scroll) from cdn instead of download it -->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/user-profile.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light">Yash Arora</h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills"><i class="bx bx-rocket"></i> <span>Skills</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#testimonials"><i class="bx bx-server"></i>Testimonials</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in" data-aos-easing="ease-in-out">
+      <h1>Yash Arora</h1>
+      <div class="container">
+        <p>I'm <span class="typed-text"></span><span class="cursor"></span></p>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Hero -->
+
+
+  <!-- in main section we will give margin left to 300 px so all section will be visible and also side navigation bar  -->
+  <main id="main">
+    <!-- About section -->
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+          <div class="col-lg-4">
+            <img src="assets/img/user-profile.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0">
+            <div class="common-section-props">
+              <h2><span>About Me</span></h2>
+              <h3></h3>
+            </div>
+            <p class="font-italic">I am a full-stack developer.I love to learn new things and implement in projects as
+              well.
+              I enjoy problems whether it should be from code or from real life.When i am not doing this coding stuff
+              I'll be either reading books or watching finance videos or playing guitar that I'm curently learning.
+            </p>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Skills section -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="common-section-props">
+          <h2><span>My Skills</span></h2>
+          <h3></h3>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+            <div class="progress ">
+              <span class="skill">HTML <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:85%">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:60%">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:80%">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="progress">
+              <span class="skill">REact Js <i class="val">77%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:77%">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+            <div class="progress">
+              <span class="skill">Java<i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:95%">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Spring Boot <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:90%">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PostGresql <i class="val">87%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width:87%">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- REsume section -->
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="common-section-props">
+          <h2><span>Resume</span></h2>
+          <h3></h3>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Yash Arora</h4>
+              <p>Innovative and deadline-driven Software Engineer with 3+ years of experience in
+                designing and developing software.Loved to convert ideas in to real time applications.
+              </p>
+              <ul>
+                <li>Rohtak,India</li>
+                <li>yasharora884@gmail.com</li>
+              </ul>
+            </div>
+
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology</h4>
+              <h5>2013-2017</h5>
+              <h6>The Technological Institute of Textiles & Sciences,Bhiwani</h6>
+              <p>Learned basics of engineering and got a degree with 75%
+                and made some good memories with friends</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5>2020-Present</h5>
+              <h6><a href="https://prilient.com/">Prilient Technologies,Noida</a></h6>
+              <p>Working on retail project for <a href="https://www.truno.com/">Truno</a></p>
+              <ul>
+                <li>Handled thousands of stores real-time and historical data with Apache Kafka</li>
+                <li>Created connectors with auto updation facility for those stores that can send real-time data</li>
+                <li>Worked on Postgresql with indexed and partition tables and cte to improve database queries</li>
+                <li>Implemented Apache Airflow for auditing of the data</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Associate Consultant Development</h4>
+              <h5>2018-2020</h5>
+              <h6><a href="https://www.oodlestechnologies.com/">Oodles Technologies,Gurgaon</a></h6>
+              <p>Worked on crypto exchange project <a href="https://www.coinzoom.com/">CoinZoom</a></p>
+              <ul>
+                <li>Worked on microservices architecture to handle all stuff relating to order buy and sell</li>
+                <li>Worked on order matching module to match the orders of buyers with sellers</li>
+                <li>Used ELK and filebeat stack for common loggings of all microservices </li>
+                <li>Implemented Redis pub sub and websocket to show live prices of crypto coins</li>
+                <li>Integrate the apis on frontend in angularjs</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Quality Analyst</h4>
+              <h5>2017-2018</h5>
+              <h6><a href="https://www.monotype.com/">Monotype,Noida</a></h6>
+              <p>Worked on automation of api's in java
+                and internal project AARAM(Automated Automation of Rest API at Monotype)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <!-- portfolio section -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+
+        <div class="common-section-props">
+          <h2><span>Portfolio</span></h2>
+          <h3></h3>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Cool Stuff</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolios/coinzoom.PNG" class="img-fluid" alt="CoinZoom">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolios/coinzoom.PNG" data-gall="portfolioGallery" class="venobox" title="CoinZoom"><i class="bx bx-plus"></i></a>
+                <a href="https://www.coinzoom.com/" title="More Details"><i
+                  class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolios/AARAM.PNG" class="img-fluid" alt="Aaram">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolios/AARAM.PNG" data-gall="portfolioGallery" class="venobox" title="Aaram"><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://www.AARAM.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolios/Truno.PNG" class="img-fluid" alt="Truno">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolios/Truno.PNG" data-gall="portfolioGallery" class="venobox" title="Business Analytics"><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://truview.truno.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolios/OnlineMall.PNG" class="img-fluid" alt="OnlineMall">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolios/OnlineMall.PNG" data-gall="portfolioGallery" class="venobox" title="Online Mall"><i
+                    class="bx bx-plus"></i></a>
+                <a href="http://admin.macrojwelles.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolios/CRMHUT.PNG" class="img-fluid" alt="CRMHUT">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolios/CRMHUT.PNG" data-gall="portfolioGallery" class="venobox" title="CRM And Reporting tool"><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://crmhut.macrojwelles.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Testimonials  section-->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="common-section-props">
+          <h2><span>Testimonials</span></h2>
+          <h3></h3>
+        </div>
+
+
+
+        <div class="owl-carousel testimonials-carousel">
+          
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Yash is one of the few people for whom writing a recommendation is a pleasure. Strong technical skills and adaption to new tech are some of his strengths. Logically strong and a team player, Yash makes things simplified. But what i like the most is his cheerfulness and sense of humour that makes the working space a fun place!!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img//testimonials/rupesh.jpg" class="testimonial-img" alt="">
+            <h3>Rupesh Sharma</h3>
+            <h4>Software Developer at Yamaha Motors</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Yash is very dedicated and goal oriented person who has good knowledge of his field in developing web applications. He must be an important asset for your organisation.              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/Ankit_ola.jpg" class="testimonial-img" alt="">
+            <h3>Ankit Ola</h3>
+            <h4>CEO &amp; Founder</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Yash possess good skills in analysing a problem and giving smart solution, he got good knowledge of JAVA. I strongly recommend him to anybody looking for talent in Java.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/Gopesj.jpg" class="testimonial-img" alt="">
+            <h3>Gopesh Sardana</h3>
+            <h4>SDET At Monotype</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Yash is very creative and a very easy-going person to work with. As an individual or as an employee, you will find that Yash makes a great addition to your team! It is an honor for me to recommend and endorse him.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/Yash_Bansal.jpg" class="testimonial-img" alt="">
+            <h3>Yash Bansal</h3>
+            <h4>Software Engineer At Nagarro</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact me section-->
+
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="common-section-props">
+          <h2><span>Contact Me</span></h2>
+          <h3></h3>
+        </div>
+
+
+        <div class="social-links mt-3">
+          <p><a href="#" class="text-center"><i class="icofont-envelope "></i></a>yasharora884@gmail.com</p>
+          <a href="#"  class="text-center"><i class="icofont-phone "></i></a>+91-7206215486
+        </div>
+
+        <button class="hireme" onClick="clickme()">HIRE ME</button>
+      </div>
+      </section>  
+
+
+  </main>
+
+  <!-- Vendor js files -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  
+  <!-- toshow images as card on click of portfolio items -->
+  <script src="assets/vendors/venobox/venobox.min.js"></script>
+  
+  <!-- image sizing as per the selected filter on click of app,web,all,coolstuff -->
+  <script src="assets/vendors/isotope-layout/isotope.pkgd.min.js"></script>
+  
+  <!-- Auto scrolling of testimonials -->
+  <script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/my_jqueryfunctions.js"></script>
+
+  <script src="assets/js/openmail.js"></script>
+  <!-- to show particles in the background -->
+  <canvas class="background"></canvas>
+  <script src="assets/vendors/particles.js-master/dist/particles.min.js"></script>
+</body>
+
+</html>
